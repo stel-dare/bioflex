@@ -1,0 +1,14 @@
+{
+  "name": "bioflex",
+  "version": "1.0.0",
+  "description": "Bioflex Company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stella Dare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
