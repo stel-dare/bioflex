@@ -7,7 +7,7 @@
     <title>Bioflex</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav">
         <div class="companyName">
           <a href="/"><span>BioFlex</span></a>
       </div>
@@ -24,11 +24,31 @@
       </div>
       </nav>
       <section id='home'>
+        <div id="slideshow">
           <div class="slide" 
-          style='background: url("https://images.unsplash.com/photo-1498409570040-05bf6d3dd5b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") 50% 50% no-repeat;
+          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-i.jpg") 50% 50% no-repeat;
+          background-size:cover;'
+          >
+          <div class="caption">
+            <div class="topBar"></div>
+            <h2>laoreet id donec</h2>
+            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
+          </div>
+          </div>
+          <div class="slide" 
+          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-ii.jpg") 50% 50% no-repeat;
           background-size:cover;'
           >
           </div>
+          <div class="slide" 
+          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-iii.jpg") 50% 50% no-repeat;
+          background-size:cover;'
+          >
+          </div>
+        </div>
+          <i class="fad fa-chevron-left" onclick="slideLeft()"></i>
+          <i class="fad fa-chevron-right" onclick="slideRight()"></i>
+          <i class="fal fa-arrow-down"></i>
       </section>
   <script src="js/scripts.js"></script>  
 </body>

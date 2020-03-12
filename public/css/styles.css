@@ -1,8 +1,9 @@
 html,body{
     margin:0;
+    color:#ffffff;
 }
 nav{
-    background: rgba(34, 34, 34,0.7);
+    /* background: rgba(34, 34, 34,0.7); */
     position: fixed;
     top:0;
     left:0;
@@ -43,22 +44,66 @@ nav{
   .show{
     display: none;
   }
-
+/* Home */
   section{
       width: 100%;
       height: 100vh;
       overflow: hidden;
+      position: relative;
   }
 
   .slide{
       width: 100%;
       height: 100vh;
+      position: relative;
       /* background-color: aliceblue;
       background-image: url('https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
       background-repeat:no-repeat;
       background-size:cover; */
   }
+ 
+  section .fa-chevron-left{
+    position: absolute;
+    bottom: 4em;
+    left: 4em;
+    font-size: 150%;
+  }
+
+  section .fa-chevron-right{
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
+    font-size: 150%;
+  }
   
+  section .fa-arrow-down{
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 150%;  
+  }
+
+  .slide .caption{
+    position: absolute;
+    top:45%;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+  .caption .topBar{
+    height: 0.2em;
+    width: 3em;
+    background: #fff;
+    margin: 0em auto 1.5em auto;
+  }
+
+  .caption h2, .caption p{
+    margin: 0.2em 0;
+    text-transform: uppercase;
+    padding: 0 1em;
+  }
+
   
   @media only screen and (min-width: 768px) {
 
