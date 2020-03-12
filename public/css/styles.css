@@ -24,7 +24,7 @@ nav{
   }
   
   .companyName a span{
-    font-family: 'Trade Winds';
+    font-family: 'Permanent Marker', cursive;
   }
   
   .dropLinks{
@@ -35,7 +35,7 @@ nav{
   }
   
   .dropLinks a{
-      font-family: 'Lato';
+    font-family: 'Merriweather', serif;
       font-size: 70%;
       padding: 0.7em 1em 0.7em 0;
   }
@@ -102,6 +102,14 @@ nav{
     margin: 0.2em 0;
     text-transform: uppercase;
     padding: 0 1em;
+  }
+
+  .caption h2{
+    font-family: 'Merriweather', serif;
+  }
+
+  .caption p{
+    font-family: 'Roboto', sans-serif;
   }
 
   
