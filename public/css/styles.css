@@ -73,7 +73,7 @@ nav{
  
   section .fa-chevron-left{
     position: absolute;
-    bottom: 4em;
+    bottom: 6em;
     left: 4em;
     /* top:55%;
     left:20%; */
@@ -82,7 +82,7 @@ nav{
 
   section .fa-chevron-right{
     position: absolute;
-    bottom: 4em;
+    bottom: 6em;
     right: 4em;
     /* top:55%;
     right:20%; */
@@ -91,7 +91,7 @@ nav{
   
   section .fa-arrow-down{
     position: absolute;
-    bottom: 1em;
+    bottom: 3em;
     left: 1em;
     font-size: 150%;  
   }
