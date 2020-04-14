@@ -2,146 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width" />
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Permanent+Marker|Roboto&display=swap" rel="stylesheet">
     <title>Bioflex</title>
 </head>
 <body>
-    <nav id="nav">
-        <div class="companyName">
+      <nav>
+        <div class="navNameIcon">
           <a href="/"><span>BioFlex</span></a>
-      </div>
-      <div id="dropdown">
         <i class="fal fa-bars" onclick="dropdown()" id="hamburger"></i>
-        <div class="dropLinks show" id="dropLinks">
+        <div class="deskLinks" id="deskLinks">
           <a href="/">About</a>
-          <a href="/">Products</a>
-          <a href="/">Upcoming Projects</a>
+          <a href="/">Products & Projects</a>
           <a href="/">Team</a>
-          <a href="/">Social</a>
-          <a href="/">Contact</a>
+          <a href="/">Reach Out</a>
         </div>
+      </div>
+      <div class="show mobLinks" id="mobLinks">
+        <a href="/">About</a>
+        <a href="/">Products & Projects</a>
+        <a href="/">Team</a>
+        <a href="/">Reach Out</a>
       </div>
       </nav>
-      <section id='home'>
-        <div id="slideshow">
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-i.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-ii.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>qaoreet id ddwrnec</h2>
-            <p>d sed rfhisus prefgum euam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-iii.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-iv.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-v.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-vi.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-vii.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-viii.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-ix.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-x.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-          <div class="slide" 
-          style='background:linear-gradient(0deg, rgba(2,2,2,0.7) 30%, rgba(16,16,16,0.3) 80%), url("images/slide-xi.jpg") 50% 50% no-repeat;
-          background-size:cover;'
-          >
-          <div class="caption">
-            <div class="topBar"></div>
-            <h2>laoreet id donec</h2>
-            <p>sed sed risus pretium quam vulputate dignissim suspendisse</p>
-          </div>
-          </div>
-        </div>
-          <i class="fad fa-chevron-left" onclick="slideLeft()"></i>
-          <i class="fad fa-chevron-right" onclick="slideRight()"></i>
-          <i class="fal fa-arrow-down"></i>
-      </section>
   <script src="js/scripts.js"></script>  
 </body>
 </html>
