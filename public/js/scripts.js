@@ -5,7 +5,7 @@ window.FontAwesomeKitConfig = { "asyncLoading": { "enabled": true }, "autoA11y":
 setInterval(slideRight, 12000);
 function dropdown(){
     document.getElementById("dropLinks").classList.toggle("show");
-    document.getElementById("dropLinks").classList.toggle("darkenNav");
+    document.getElementById("dropdown").classList.toggle("darkenNav");
     document.getElementById("hamburger").classList.toggle("fa-bars");
     document.getElementById("hamburger").classList.toggle("fa-times");
  }
