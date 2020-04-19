@@ -52,20 +52,80 @@ html,body{
     display: none;
   }
 
+  .home{
+    width: 90%;
+    margin: 10em auto 0.2em auto;
+  }
+  .intro{
+    /* width: 90%; */
+    /* margin: 0 auto; */
+  }
+  .introImage{
+    /* width: 90%; */
+    /* margin: 2em auto 6em auto; */
+    padding: 2em 0em 6em 0em;
+  }
+
+  .introImage img{
+    max-width: 100%;
+  }
+  .text{
+    text-align: center;
+  }
+
+
+  .text h1{
+    font-size: 300%;
+  }
+
+  .text p{
+    font-size: 120%;
+    line-height: 1.4;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons button{
+    margin: 1em auto;
+    padding: 0.7em 0.8em;
+    width: 80%;
+    background: #186ee3;
+    border:none;
+    font-size: 100%;
+    color: #F2F7FE;
+  }
+
+  button:last-child{
+    border: 1px solid #186ee3;
+    background: #F2F7FE;
+    color:#186ee3 ;
+  }
 
 
   
   @media only screen and (min-width: 768px) {
 nav{
-  width:90%;
+  width:95%;
   margin: 0 auto;
 }
 
+.home{
+  width: 80%;
+}
+.buttons{
+  flex-direction: row;
+}
+
+.buttons button{
+  width: 35%;
+}
   }
   
   @media only screen and (min-width: 1024px) {
     nav{
-      width:80%;
+      /* width:80%; */
     }
     #hamburger{
         display: none;
@@ -78,10 +138,43 @@ nav{
          padding: 0em 0.8em;
        }
        
+       .home{
+        width: 65%;
+      }
   }
   
   @media only screen and (min-width: 1440px) {
     nav{
-      width:70%;
+      width:65%;
     }
+
+    .home{
+      width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    }
+
+    .intro{
+      width: 48%;
+    }
+    .introImage{
+      width: 48%;
+      padding: 0;
+    }
+
+    .text{
+      text-align: left;
+    }
+
+    .buttons button{
+      margin: 1em 2em 1em 0em;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+  nav, .home{
+    width: 45%;
+  }
+  
   }
