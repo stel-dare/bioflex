@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     color:#131623 ;
+    font-family: 'Merriweather', serif;
 }
  nav{
     position: fixed;
@@ -8,6 +9,7 @@ html,body{
     left:0;
     right:0;
     z-index:100;
+    font-family: 'Roboto', sans-serif;
   }
   
   nav, nav a{
@@ -35,7 +37,7 @@ html,body{
 
   .mobLinks a {
     padding: 0.7em 0em;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-weight: 600;
 }
 
@@ -43,9 +45,13 @@ html,body{
     display: flex;
     justify-content:space-between;
     align-items:baseline;
-    font-size: 170%;
+    font-size: 160%;
     padding:0.3em 0.4em 0.5em 0.4em;
     border-bottom: 1px solid #131623 ;
+  }
+
+  .deskLinks{
+    font-size: 80%;
   }
 
   .show{
@@ -53,7 +59,7 @@ html,body{
   }
 
   .home{
-    width: 90%;
+    width: 93%;
     margin: 10em auto 0.2em auto;
   }
   .intro{
@@ -76,6 +82,7 @@ html,body{
 
   .text h1{
     font-size: 300%;
+    font-family: 'Roboto', sans-serif;
   }
 
   .text p{
@@ -112,7 +119,7 @@ nav{
 }
 
 .home{
-  width: 80%;
+  width: 90%;
 }
 .buttons{
   flex-direction: row;
@@ -145,11 +152,11 @@ nav{
   
   @media only screen and (min-width: 1440px) {
     nav{
-      width:65%;
+      width:80%;
     }
 
     .home{
-      width: 65%;
+      width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center
