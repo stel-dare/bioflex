@@ -121,6 +121,44 @@ html,body{
     color:#186ee3 ;
   }
 
+.about {
+    background: #cccbb9;
+    padding: 3em 0em 3em 0em;
+}
+
+
+  .about img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about p {
+  text-align: center;
+}
+
+.about h3 {
+  text-align: center;
+  width: 80%;
+  margin: 2em auto;
+}
+
+.pict {
+  width: 70%;
+  margin: 5em auto;
+}
+
+.pictImg {
+    width: 35%;
+    margin: 0 auto;
+}
+
+hr {
+  width: 80%;
+  border-style: solid;
+  margin: 6em auto;
+}
+
 
   
   @media only screen and (min-width: 768px) {
@@ -138,6 +176,15 @@ nav{
 
 .buttons button{
   width: 35%;
+}
+
+.pictionary {
+  display: flex;
+  justify-content: space-around;
+}
+.pict {
+  width: 27%;
+  margin: 0em;
 }
   }
   
@@ -158,6 +205,11 @@ nav{
        
        .home{
         width: 65%;
+      }
+
+      .pictionary{
+        width: 80%;
+        margin: 0 auto;
       }
   }
   
@@ -188,11 +240,18 @@ nav{
     .buttons button{
       margin: 1em 2em 1em 0em;
     }
+    .pictionary {
+      width: 58%;
+    }
   }
 
   @media only screen and (min-width: 2560px) {
   nav, .home{
     width: 45%;
   }
+
+  .pictionary {
+    width: 38%;
+}
   
   }
