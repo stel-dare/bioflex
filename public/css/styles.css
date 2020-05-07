@@ -178,7 +178,28 @@ hr {
   width: 80%;
   margin: 0 auto;
 }
-  
+
+.card img{
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+.card h3, .card p{
+  text-align: center;
+}
+
+.upcoming{
+  background: #cccbb9;
+}
+
+.upcoming h2{
+  text-align: center;
+}
+.card button{
+  display: block;
+  margin: 0 auto;
+}
   @media only screen and (min-width: 768px) {
 nav{
   width:95%;
