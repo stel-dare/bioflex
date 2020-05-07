@@ -11,6 +11,7 @@ html,body{
     z-index:100;
     font-family: 'Roboto', sans-serif;
     background: #fff;
+    transition: all .7s ease;
   }
   
   nav, nav a{
@@ -48,7 +49,7 @@ html,body{
     align-items:baseline;
     font-size: 160%;
     padding:0.3em 0.4em 0.5em 0.4em;
-    border-bottom: 1px solid #131623 ;
+    border-bottom: 1px solid #bdc2db;
   }
 
   .deskLinks{
@@ -57,6 +58,10 @@ html,body{
 
   .show{
     display: none;
+  }
+
+  .navExpand{
+    width: 100%;
   }
   .overlayPage{
     position: fixed;
