@@ -200,6 +200,12 @@ hr {
   display: block;
   margin: 0 auto;
 }
+
+.staff img{
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+}
   @media only screen and (min-width: 768px) {
 nav{
   width:95%;
