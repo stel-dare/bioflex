@@ -379,6 +379,26 @@ hr {
   font-size: 110%;
   color: #f5ffff;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0em;
+}
+footer a {
+  text-decoration: none;
+  color: #0b1a30;
+  text-transform: uppercase;
+  font-size: 120%;
+  padding: 0.7em 0em;
+  font-weight: 700;
+}
+footer span {
+  font-family: 'Permanent Marker', cursive;
+  color: #5a54f2;
+  font-size: 160%;
+}
   @media only screen and (min-width: 768px) {
 nav{
   width:95%;
@@ -506,6 +526,25 @@ nav{
 .email {
   width: 40%;
 }
+
+footer{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 3em 0em;
+}
+footer a{
+  padding: 0em 0.7em;
+}
+
+footer a:nth-child(1) {
+  margin-right: auto;
+}
+
+footer p {
+  width: 100%;
+  text-align: right;
+}
   }
   
   @media only screen and (min-width: 1024px) {
@@ -630,6 +669,10 @@ nav{
   padding: 4em 0em;
 }
 
+footer{
+  padding: 4em 0em;
+}
+
   }
   
   @media only screen and (min-width: 1440px) {
@@ -739,7 +782,12 @@ nav{
   .socialCont {
     padding: 5em 0em;
   }
-  
+  footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5em 0em;
+  }
+ 
   }
 
   @media only screen and (min-width: 2560px) {
@@ -819,6 +867,12 @@ hr{
 }
 
 .socialCont {
+  padding: 6em 0em;
+}
+
+footer{
+  width: 50%;
+  margin: 0 auto;
   padding: 6em 0em;
 }
   
