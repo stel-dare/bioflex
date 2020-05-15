@@ -10,22 +10,22 @@
 <body>
       <nav id="nav">
         <div class="navNameIcon">
-          <a href="/"><span>BioFlex</span></a>
+          <a href="#"><span>BioFlex</span></a>
         <i class="fal fa-bars" onclick="dropdown()" id="hamburger"></i>
         <div class="deskLinks" id="deskLinks">
-          <a href="/">About</a>
-          <a href="/">Products</a>
-          <a href="/">Upcoming Projects</a>
-          <a href="/">Team</a>
-          <a href="/">Say Hi</a>
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#projects">Upcoming Projects</a>
+          <a href="#team">Team</a>
+          <a href="#social">Say Hi</a>
         </div>
       </div>
       <div class="show mobLinks" id="mobLinks">
-        <a href="/">About</a>
-        <a href="/">Products</a>
-        <a href="/">Upcoming Projects</a>
-        <a href="/">Team</a>
-        <a href="/">Say Hi</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#projects">Upcoming Projects</a>
+        <a href="#team">Team</a>
+        <a href="#social">Say Hi</a>
       </div>
       </nav>
       <section class="overlayPage show" id="overlayPage" onclick="dropdown()"></section>
@@ -51,6 +51,7 @@
         </div>
       </section>
       <section class="about" id='about'>
+        <h2>About <span class="sectionSpan">Us</span></h2>
         <h3>Aliquet lectus, proin nibh nisl, condimentum.</h3>
         <div class="pictionary">
           <div class="pict">
@@ -96,7 +97,8 @@
         </div>
       </section>
 
-      <section class="products">
+      <section class="products" id="products">
+        <h2>Our <span class="sectionSpan">Products</span></h2>
         <div class="prod">
           <div class="prodImg">
             <img src="images/dashboard.png" alt="">
@@ -154,8 +156,8 @@
         </div>
 
       </section>
-      <section class="upcoming">
-        <h2>Upcoming <span>Projects</span></h2>
+      <section class="upcoming" id="projects">
+        <h2>Our Upcoming <span class="sectionSpan">Projects</span></h2>
         <div class="cardCont">
           <div class="card">
             <div class="cardImg">
@@ -189,8 +191,8 @@
           </div>
         </div>
       </section>
-      <section class="team">
-        <h2>Meet The <span>Team</span></h2>
+      <section class="team" id="team">
+        <h2>Meet The <span class="sectionSpan">Team</span></h2>
         <div class="teamCont">
         <!-- <div class="members"> -->
           <div class="staff">
@@ -239,8 +241,8 @@
         <!-- </div> -->
       </div>
       </section>
-      <section class="social">
-        <h2>Say Hello To Us</h2>
+      <section class="social" id='social'>
+        <h2>Say <span class="sectionSpan">Hello</span> To Us</h2>
         <div class="socialCont">
         <div class="twitter">
           <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" data-height='520' data-chrome="nofooter">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -252,7 +254,7 @@
         </div>
         <div class="youtube">
           <div class="iframeCont">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
         </div>
         <!-- <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default"></div> -->
         <div class="ytsubscribe">
@@ -270,16 +272,16 @@ overflow-y: hidden; "></iframe>
       </section>
 
       <footer>
-        <a href="/"><span>BioFlex</span></a>
-        <a href="/">About</a>
-        <a href="/">Products</a>
-        <a href="/">Upcoming Projects</a>
-        <a href="/">Team</a>
-        <a href="/">Say Hi</a>
+        <a href="#"><span>BioFlex</span></a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#projects">Upcoming Projects</a>
+        <a href="#team">Team</a>
+        <a href="#social">Say Hi</a>
         <p>© 2020 Bioflex Inc.</p>
       </footer>
     
-  <script src="js/scripts.js"></script>
-  <script src="https://apis.google.com/js/platform.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>  
 </body>
 </html>
