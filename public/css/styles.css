@@ -5,6 +5,7 @@ html,body{
     line-height: 1.6;
     background: #dceffd;
 }
+/** Start:  General Styles **/
 h3 {
   font-size: 130%;
   font-weight: 900;
@@ -13,9 +14,19 @@ h3 {
 p{
   font-size: 120%;
 }
+button{
+  cursor: pointer;
+}
+
 .sectionSpan{
   color: #5a54f2;
 }
+
+/** End:  General Styles **/
+
+
+/* Start: Navigation Styles */
+
  nav{
     position: fixed;
     top:0;
@@ -53,7 +64,6 @@ p{
 
   .mobLinks a {
     padding: 0.7em 0em;
-    /* font-family: 'Merriweather', serif; */
     font-weight: 600;
 }
 
@@ -87,19 +97,16 @@ p{
     opacity: .5;
     z-index: 99;
   }
+  /* End: Navigation Styles */
 
+  /* Start: home Styles */
   .home{
     width: 93%;
     margin: 0 auto;
     padding: 6em 0.2em;
   }
-  .intro{
-    /* width: 90%; */
-    /* margin: 0 auto; */
-  }
+  
   .introImage{
-    /* width: 90%; */
-    /* margin: 2em auto 6em auto; */
     padding: 2em 0em 0em 0em;
   }
 
@@ -112,14 +119,12 @@ p{
     text-align: center;
   }
 
-
   .text h1{
     font-size: 300%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
   }
 
   .text p{
-    /* font-size: 120%; */
     width: 85%;
     margin: 1em auto;
   }
@@ -143,7 +148,10 @@ p{
     background: #f5ffff;
     color: #5a54f2
   }
+  
+  /* End: home Styles */
 
+  /* Start: About Company Styles */
 .about {
     background: #f5ffff;
     padding: 3em 0em 3em 0em;
@@ -182,7 +190,10 @@ hr {
   margin: 6em auto;
   color: #acc6ec;
 }
+/* End: About Styles */
 
+
+/* Start: Company products styles */
 .products {
   background: #fcfbff;
   padding: 3em 0em;
@@ -194,7 +205,6 @@ hr {
   text-decoration: none;
   font-size: 110%;
   color: #5a54f2;
-  /* padding: 1em 0em; */
 }
 .prodImg img{
   display: block;
@@ -213,7 +223,9 @@ hr {
   margin: 0 auto;
   padding: 3em 0em;
 }
+/* End: Company products styles */
 
+/* Start: Upcoming projects styles */
 .card {
   width: 90%;
   margin: 4em auto;
@@ -230,8 +242,6 @@ hr {
 }
 
 .card img{
-  /* display: block;
-  margin: 0 auto; */
   max-width: 20%;
 }
 
@@ -262,7 +272,9 @@ hr {
   font-size: 100%;
   color: #f5ffff;
 }
+/* End: Upcoming projects styles */
 
+/* Start: Company Team Styles */
 .team {
   background: #fcfbff;
   padding: 3em 0em;
@@ -305,11 +317,11 @@ hr {
   color: #5a54f2;
   font-weight: 600;
 }
+/* End: Company Team Styles */
 
+/* Start: Company Social Wall Styles */
 .social {
   background: #fff;
-  /* width: 95%; */
-  /* margin: 0; */
   padding: 3em 0em;
 }
 
@@ -317,7 +329,6 @@ hr {
   padding: 2em 0em;
 }
 .twitter {
-  /* padding: 2em 0em 0em 0em; */
   width: 90%;
   margin: 0 auto;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -336,7 +347,6 @@ hr {
 .iframeCont {
   position: relative;
   width: 100%;
-  /* margin: 2em auto 0em auto; */
   overflow: hidden;
   padding-top: 56.25%;
 }
@@ -354,7 +364,6 @@ hr {
 
 .ytsubscribe{
   width: 100%;
-  /* margin: 0em auto 0em auto; */
 }
 .ytsubscribe iframe{
   width: 100%;
@@ -372,17 +381,15 @@ hr {
   border: 1px solid #5a54f2;
   background: #f5ffff;
   color: #5a54f2;
-  /* display: block; */
-  /* margin: 2em auto; */
-  /* margin: 1.3em auto; */
   padding: 0.7em 0.8em;
   width: 100%;
   background: #5a54f2;
-  /* border: none; */
   font-size: 110%;
   color: #f5ffff;
 }
+/* End: Company Social Wall Styles */
 
+/* Start: Footer Styles */
 footer {
   display: flex;
   flex-direction: column;
@@ -402,12 +409,17 @@ footer span {
   color: #5a54f2;
   font-size: 160%;
 }
+/* End: Footer Styles */
+
+/* Styles for media with width >= 768px */
   @media only screen and (min-width: 768px) {
+    /* Start: Navigation styles */
 nav{
   width:95%;
   margin: 0 auto;
 }
 
+/* Start: Home styles */
 .home{
   width: 90%;
   padding: 8em 0.2em;
@@ -430,6 +442,7 @@ nav{
 .introImage img {
   max-width: 80%;
 }
+/* start: About styles */
 .about {
   padding: 4em 0em;
 }
@@ -443,6 +456,7 @@ nav{
   margin: 0em;
 }
 
+/* start: Product styles */
 .products{
   padding: 4em 0em;
 }
@@ -462,6 +476,7 @@ nav{
   margin-right: auto;
 }
 
+/* start: Upcoming project styles */
 .upcoming {
   padding: 4em 0em;
 }
@@ -479,19 +494,17 @@ nav{
 .card h3, .card p {
   width: 90%;
 }
+
+/* start: Team styles */
 .team{
   padding: 4em 0em;
 }
 .teamCont {
   display: flex;
   justify-content: space-around;
-  /* align-items: baseline; */
 }
 .staff {
-  /* display: flex; */
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: baseline; */
   border-bottom: none;
   width: 15%;
   margin: 0;
@@ -510,6 +523,8 @@ nav{
 .staffDes h3{
   font-size: 110%;
 }
+
+/* start: Social wall styles */
 .social {
   padding: 4em 0em;
 }
@@ -517,20 +532,16 @@ nav{
 .socialCont {
   padding: 3em 0em;
 }
-/* 
-.twitter, .iframeCont, .ytsubscribe{
-  width: 70%;
-} */
+
 .twitter, .youtube, .email{
   width: 70%;
 }
-/* .email button{
-  width: 40%;
-} */
+
 .email {
   width: 40%;
 }
 
+/* start: footer styles */
 footer{
   flex-direction: row;
   flex-wrap: wrap;
@@ -551,10 +562,9 @@ footer p {
 }
   }
   
+  /* Styles for media with width >= 1024px */
   @media only screen and (min-width: 1024px) {
-    nav{
-      /* width:80%; */
-    }
+    /* start: Navigation styles */
     #hamburger{
         display: none;
        }
@@ -566,10 +576,11 @@ footer p {
          padding: 0em 0.8em;
        }
        
+       /* start: Home styles */
        .home{
         width: 65%;
       }
-
+      /* start: About styles */
       .about {
         padding: 5em 0em;
       }
@@ -580,6 +591,7 @@ footer p {
         margin: 0 auto;
       }
 
+      /* start:Products styles */
       .products{
         padding: 5em 0em;
       }
@@ -630,6 +642,7 @@ footer p {
   margin-top: 0;
 }
 
+/* start: Upcoming projects styles */
 .upcoming {
   padding: 5em 0em;
 }
@@ -640,6 +653,7 @@ footer p {
   padding: 4em 0em;
 }
 
+/* start: Team styles */
 .team{
   padding: 5em 0em;
 }
@@ -648,6 +662,7 @@ footer p {
   padding: 4em 0em;
 }
 
+/* start: Social styles */
 .socialCont {
   display: flex;
   flex-wrap: wrap;
@@ -673,17 +688,23 @@ footer p {
   padding: 4em 0em;
 }
 
+/* start: footer styles */
+
 footer{
   padding: 4em 0em;
 }
 
   }
+
+  /* Styles for media with width >= 1440px */
   
   @media only screen and (min-width: 1440px) {
+    /* start: Navigation styles */
     nav{
       width:80%;
     }
 
+    /* start: Home styles */
     .home{
       width: 80%;
     display: flex;
@@ -711,6 +732,8 @@ footer{
     .buttons button{
       margin: 1em 2em 1em 0em;
     }
+
+    /* start: About styles */
     .about {
       padding: 6em 0em;
     }
@@ -725,6 +748,7 @@ footer{
       width: 58%;
     }
 
+    /* start: Product styles */
     .products{
       padding: 6em 0em;
     }
@@ -740,6 +764,7 @@ footer{
       width: 65%;
   }
 
+    /* start: Upcoming projects styles */
   .upcoming {
     padding: 6em 0em;
   }
@@ -752,6 +777,8 @@ footer{
   .card {
     width: 27%;
   }
+
+  /* start: Team styles */
   .team{
     padding: 6em 0em;
   }
@@ -764,6 +791,8 @@ footer{
     width: 75%;
     margin: 0 auto;
   }
+
+  /* start: social wall styles */
   .twitter{
     width: 28%;
     margin: 0;
@@ -786,6 +815,8 @@ footer{
   .socialCont {
     padding: 5em 0em;
   }
+
+  /* start: footer styles */
   footer{
     width: 70%;
     margin: 0 auto;
@@ -794,10 +825,13 @@ footer{
  
   }
 
+  /* Styles for media with width >= 2560px */
   @media only screen and (min-width: 2560px) {
+    /* start: NAvigation styles */
   nav, .home{
     width: 45%;
   }
+  /* start: about styles */
   .about {
     padding: 7em 0em;
   }
@@ -810,6 +844,7 @@ hr{
   width: 38%;
 }
 
+/* start: product styles */
 .products{
   padding: 7em 0em;
 }
@@ -825,6 +860,8 @@ hr{
 .prodImg img {
   width: 55%;
 }
+
+/* start:upcoming project styles */
 .upcoming {
   padding: 7em 0em;
 }
@@ -838,6 +875,7 @@ hr{
   width: 25%;
 }
 
+/* start: team styles */
 .teamCont{
   width: 50%;
   margin: 0 auto;
@@ -851,6 +889,7 @@ hr{
   padding: 6em 0em;
 }
 
+/* start social wall styles */
 .twitter{
   width: 22%;
   margin: 0;
@@ -874,6 +913,7 @@ hr{
   padding: 6em 0em;
 }
 
+/* start:footer styles */
 footer{
   width: 50%;
   margin: 0 auto;

@@ -8,10 +8,12 @@
     <title>Bioflex</title>
 </head>
 <body>
+  <!-- Start: Navigation -->
       <nav id="nav">
         <div class="navNameIcon">
           <a href="#"><span>BioFlex</span></a>
         <i class="fal fa-bars" onclick="dropdown()" id="hamburger"></i>
+        <!-- start: Desktop Nav Links -->
         <div class="deskLinks" id="deskLinks">
           <a href="#about">About</a>
           <a href="#products">Products</a>
@@ -20,6 +22,7 @@
           <a href="#social">Say Hi</a>
         </div>
       </div>
+      <!-- start: Mobile Nav Links -->
       <div class="show mobLinks" id="mobLinks">
         <a href="#about">About</a>
         <a href="#products">Products</a>
@@ -28,8 +31,13 @@
         <a href="#social">Say Hi</a>
       </div>
       </nav>
+      <!-- start: Mobile Nav Overlay -->
       <section class="overlayPage show" id="overlayPage" onclick="dropdown()"></section>
+      <!-- End: Navigation -->
+
+      <!-- Start: Home/Introduction -->
       <section class='home'>
+        <!-- start: Introduction text and buttons container -->
         <div class='intro'>
           <div class="text">
             <h1>
@@ -46,14 +54,21 @@
             <button>We are hiring</button>
           </div>
         </div>
+        <!-- start: Introduction Image Container -->
         <div class="introImage">
           <img src="images/teamwork.webp" alt="">
         </div>
       </section>
+       <!-- End: Home/Introduction -->
+
+       <!-- Start: About Company Section -->
       <section class="about" id='about'>
+        <!-- start: section title -->
         <h2>About <span class="sectionSpan">Us</span></h2>
         <h3>Aliquet lectus, proin nibh nisl, condimentum.</h3>
+        <!-- start: points about company container -->
         <div class="pictionary">
+          <!-- start: points about company -->
           <div class="pict">
             <div class="pictImg">
               <img src="images/miscellaneous.png" alt="">
@@ -73,9 +88,13 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
         </div>
+        <!-- start:horizontal line -->
         <hr>
+        <!-- start: points title -->
         <h3>Aliquet lectus, proin nibh nisl, condimentum.</h3>
+        <!-- start: points about company container -->
         <div class="pictionary">
+          <!-- start: points about company -->
           <div class="pict">
             <div class="pictImg">
               <img src="images/management.png" alt="">
@@ -96,9 +115,13 @@
           </div>
         </div>
       </section>
+      <!-- End: About Company Section -->
 
+      <!-- Start: Company Products Section -->
       <section class="products" id="products">
+        <!-- start:section title -->
         <h2>Our <span class="sectionSpan">Products</span></h2>
+        <!-- start:Company product -->
         <div class="prod">
           <div class="prodImg">
             <img src="images/dashboard.jpg" alt="">
@@ -156,9 +179,15 @@
         </div>
 
       </section>
+      <!-- End: Company Products Section -->
+
+      <!-- Start: Company Upcoming Projects Section -->
       <section class="upcoming" id="projects">
+        <!-- start:section title -->
         <h2>Our Upcoming <span class="sectionSpan">Projects</span></h2>
+        <!-- start:Upcoming projects container -->
         <div class="cardCont">
+          <!-- start:upcoming project card -->
           <div class="card">
             <div class="cardImg">
               <img src="images/bike.png" alt="">
@@ -191,10 +220,15 @@
           </div>
         </div>
       </section>
+      <!-- End: Company Upcoming Projects Section -->
+
+      <!-- Start: Company Team Section -->
       <section class="team" id="team">
+        <!-- start: section title -->
         <h2>Meet The <span class="sectionSpan">Team</span></h2>
+        <!-- start: company team container -->
         <div class="teamCont">
-        <!-- <div class="members"> -->
+        <!-- start:company individual staff -->
           <div class="staff">
             <div class="staffImg"><img src="images/staff-i.png" alt=""></div>
             <div class="staffDes">
@@ -202,8 +236,7 @@
               <p>adipiscing elit sit amet</p>
             </div>
           </div>
-        <!-- </div> -->
-       <!-- <div class="members"> -->
+        
         <div class="staff">
           <div class="staffImg"><img src="images/staff-ii.png" alt=""></div>
           <div class="staffDes">
@@ -211,8 +244,7 @@
             <p>proin nibh nisl</p>
           </div>
         </div>
-      <!-- </div> -->
-       <!-- <div class="members"> -->
+      
         <div class="staff">
           <div class="staffImg"><img src="images/staff-iii.png" alt=""></div>
           <div class="staffDes">
@@ -220,8 +252,7 @@
             <p>consectetur adipiscing elit</p>
           </div>
         </div>
-      <!-- </div> -->
-       <!-- <div class="members"> -->
+      
         <div class="staff">
           <div class="staffImg"><img src="images/staff-iv.png" alt=""></div>
           <div class="staffDes">
@@ -229,8 +260,7 @@
             <p>sit amet, consectetur adipiscing</p>
           </div>
         </div>
-      <!-- </div> -->
-        <!-- <div class="members"> -->
+      
           <div class="staff">
             <div class="staffImg"><img src="images/staff-v.png" alt=""></div>
             <div class="staffDes">
@@ -238,25 +268,30 @@
               <p>amet, consectetur adipiscing</p>
             </div>
           </div>
-        <!-- </div> -->
+        
       </div>
       </section>
+      <!-- End: Company Team Section -->
+
+      <!-- Start:Company Social Wall Section -->
       <section class="social" id='social'>
+        <!-- start: section title -->
         <h2>Say <span class="sectionSpan">Hello</span> To Us</h2>
+        <!-- start:social wall container -->
         <div class="socialCont">
+          <!-- start: twitter -->
         <div class="twitter">
           <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" data-height='520' data-chrome="nofooter">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <div class="twitterButtons">
           <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <a href="https://twitter.com/intent/tweet?screen_name=TwitterDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
-          <!-- <a class="twitter-timeline" href="https://twitter.com/stelladare2?ref_src=twsrc%5Etfw" data-height='420' data-tweet-limit="10" data-chrome="nofooter noheader">Tweets by stelladare2</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
         </div>
+        <!-- start: youtube -->
         <div class="youtube">
           <div class="iframeCont">
           <iframe src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
         </div>
-        <!-- <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default"></div> -->
         <div class="ytsubscribe">
         <iframe frameborder="0" id="fr" scrolling="no" 
 src="https://www.youtube.com/subscribe_widget?p=GoogleDevelopers" 
@@ -264,13 +299,15 @@ style="border: 0px;  background:#FFF; overflow-x: hidden;
 overflow-y: hidden; "></iframe>
         </div>
       </div>
-
+        <!-- start: email -->
         <div class="email">
           <button><span>@</span><span>bioflex@gmail.com</span></button>
         </div>
         </div>
       </section>
+      <!-- End:Company Social Wall Section -->
 
+      <!-- Start: footer -->
       <footer>
         <a href="#"><span>BioFlex</span></a>
         <a href="#about">About</a>
@@ -280,7 +317,9 @@ overflow-y: hidden; "></iframe>
         <a href="#social">Say Hi</a>
         <p>© 2020 Bioflex Inc.</p>
       </footer>
-    
+     <!-- End:footer -->
+
+     <!-- Start: scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>  
 </body>
