@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Bioflex</title>
 </head>
 <body>
-
+<section class="home">
+  <nav>
+    <div class="logo"><span>Bioflex</span><span class="blue dot"><i class="fas fa-circle"></i></span></div>
+    <div class="side-nav-bar hide" id="side-nav-bar">
+      <div class="nav-header"><span class="blue">NAVIGATION</span><i class="fad fa-times" onclick="toggleVissibility()"></i></div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Team</a>
+        <a href="#">Contact</a>
+      </div>
+      <p class="nav-about">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <div class="nav-social">
+        <i class="font fab fa-facebook-f"></i>
+        <i class="font fab fa-linkedin-in"></i>
+        <i class="font fab fa-twitter"></i>
+        <i class="font fab fa-youtube"></i>
+        <i class="font fas fa-envelope"></i>
+      </div>
+    </div>
+    <div class="menu-button" onclick="toggleVissibility()"><span class="menu-text blue">MENU</span><i class="fad fa-bars"></i></div>
+  </nav>
+</section>
   <script src="js/scripts.js"></script>  
 </body>
 </html>
